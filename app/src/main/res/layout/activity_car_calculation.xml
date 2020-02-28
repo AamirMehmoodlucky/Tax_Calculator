@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_height="0dp"
+        android:background="@drawable/car">
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="8"
+        android:layout_height="0dp">
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:background="#2E3738"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="#5AAAB4"
+                android:weightSum="50">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="2"
+                    android:background="#4498BE"
+                    android:layout_height="0dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="522dp"
+                        android:paddingBottom="20dp"
+                        android:text="Motor Vechile New Registeration Cost Calculate"
+                        android:textSize="25sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#D370E0">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LifeTime Tax upto 100cc"
+                        android:textSize="20dp">
+
+                    </RadioButton>
+                </LinearLayout>
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:background="#75BFE0">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Invoise Date:"
+                    android:textSize="20sp"
+                    android:paddingLeft="30dp">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price:"
+                    android:textSize="20sp"
+                    android:paddingLeft="30dp">
+
+                </TextView>
+
+              </LinearLayout>
+              <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:background="#148FC0">
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:text="Pick Date"
+                    android:textSize="25sp"
+                    android:background="#F3F3EC"
+                    android:paddingLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="10dp">
+
+                </TextView>
+                <EditText
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:text="0"
+                    android:background="#F3F3EC"
+                    android:textSize="25sp"
+                    android:layout_marginRight="20dp"
+                    android:paddingLeft="10dp">
+
+                </EditText>
+
+                 </LinearLayout>
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:background="#C6ECFC">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Engine Capicity (cc):"
+                    android:textSize="20sp"
+                    android:paddingLeft="30dp">
+
+                </TextView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:background="#B0C0C7">
+                    <Spinner
+                        android:layout_width="80dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_height="wrap_content">
+
+                    </Spinner>
+
+                  </LinearLayout>
+                  <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:background="#C6ECFC">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="522dp"
+                        android:paddingBottom="20dp"
+                        android:text="Apply Transer Charges(if invoise or import Documents are not on the name of applicant):"
+                        android:textSize="25sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                  </LinearLayout>
+                  <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:background="#A4D3E6">
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_height="wrap_content">
+
+                    </Spinner>
+
+                  </LinearLayout>
+                  <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:background="#C6ECFC">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="522dp"
+                        android:paddingBottom="20dp"
+                        android:text="Witholding Tax New Regusteration Collected at Sources:"
+                        android:textSize="25sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                  </LinearLayout>
+                  <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:background="#9CC8DB">
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                       <RadioButton
+                           android:layout_width="wrap_content"
+                           android:text="Yes"
+                           android:textSize="20dp"
+                           android:layout_height="wrap_content">
+
+                       </RadioButton>
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:text="No"
+                            android:textSize="20dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+                    </RadioGroup>
+
+                  </LinearLayout>
+                  <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:background="#C8D7DF">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="522dp"
+                        android:paddingBottom="20dp"
+                        android:text="Is Vehicle is Purchased through Higher Purchases Agsdgfd:"
+                        android:textSize="25sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                  </LinearLayout>
+                  <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:background="#C6ECFC">
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:text="Yes"
+                            android:textSize="20dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:text="No"
+                            android:textSize="20dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+                    </RadioGroup>
+
+                </LinearLayout>
+                  <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:background="#F5E859">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="522dp"
+                        android:paddingBottom="20dp"
+                        android:text="Do You Revised Choise No?"
+                        android:textSize="25sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+                  <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:background="#70BADA">
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:text="Yes"
+                            android:textSize="20dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:text="No"
+                            android:textSize="20dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+                    </RadioGroup>
+
+                   </LinearLayout>
+                  <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:background="#C6ECFC">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="522dp"
+                        android:paddingBottom="20dp"
+                        android:text="Pay Tax Upto:"
+                        android:textSize="25sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                  </LinearLayout>
+
+
+                  <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:background="#DB819F">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Choose  Date"
+                        android:textSize="25sp"
+                        android:background="#F3F3EC"
+                        android:paddingLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="10dp">
+
+                    </TextView>
+                  </LinearLayout>
+
+
+
+                  <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="#C6ECFC">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Calculate"
+                        android:layout_gravity="center">
+
+                    </Button>
+                  </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
