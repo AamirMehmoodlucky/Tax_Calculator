@@ -23,7 +23,8 @@ public class MainDashBoard extends AppCompatActivity {
                 Intent intent=new Intent(MainDashBoard.this,CarCalculation.class);
                 startActivity(intent);
                 Toast.makeText(MainDashBoard.this, "Fisrt", Toast.LENGTH_SHORT).show();
-                Toast.makeText(MainDashBoard.this, "kkkkkkkkkkkk", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainDashBoard.this, "Fisrt", Toast.LENGTH_SHORT).show();
+
 
             }
         });
