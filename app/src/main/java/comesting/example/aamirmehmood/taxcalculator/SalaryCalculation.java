@@ -35,6 +35,8 @@ public class SalaryCalculation extends AppCompatActivity
          spinner = (Spinner) findViewById(R.id.spinnersalaryid);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_spinner_item, items);
+        Toast.makeText(SalaryCalculation.this, "Fisrt", Toast.LENGTH_SHORT).show();
+
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
