@@ -26,6 +26,11 @@ public class MainDashBoard extends AppCompatActivity {
                 Toast.makeText(MainDashBoard.this, "Fisrt", Toast.LENGTH_SHORT).show();
 
 
+
+                Toast.makeText(MainDashBoard.this, "Fisrt", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainDashBoard.this, "Fisrt", Toast.LENGTH_SHORT).show();
+
+
             }
         });
     }
